@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+  Build xml
+  ===========
+
+
+-->
+<project name="pllib" default="help" basedir=".">
+
+	<property name="jarname" value="webservlet.jar"/>
+	<property name="jarname.server" value="srv.jar"/>
+
+	<property name="javac.source" value="1.6"/>
+	<property name="javac.target" value="1.6"/>
+
+	<property name="dist.dir" value="dist"/>
+	<property name="classes.dest.dir" value="classes"/>
+	<property name="sources.src.dir" value="src"/>
+
+
+	<!-- =======================================
+		 servlet
+	 =======================================-->
+	
+	<target name="compile" >
+		<mkdir dir="${classes.dest.dir}"/>
+		<javac srcdir="${sources.src.dir}" destdir="${classes.dest.dir}" source="${javac.source}" target="${javac.target}" debug="on" encoding="utf-8" excludes="web/server/**">
+			<classpath>
+				<fileset dir="lib">
+				  <include name="servlet-api.jar"/>
+				</fileset>
+				<pathelement location="${classes.dest.dir}"/>
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="quickdist" depends="clean">
+		<mkdir dir="${dist.dir}"/>
+		<jar jarfile="${dist.dir}/${jarname}" basedir="${classes.dest.dir}"/>
+		<copy file="${dist.dir}/${jarname}" todir="webapps/sample/WEB-INF/lib/"/>
+	</target>
+
+	<target name="clean">
+		<delete dir="${classes.dest.dir}"/>
+		<delete file="${dist.dir}/${jarname}"/>
+	</target>
+
+	<!-- =======================================
+		 server
+	 =======================================-->
+
+	<target name="build-server">
+	  <mkdir dir="${classes.dest.dir}"/>
+		<javac srcdir="${sources.src.dir}" destdir="${classes.dest.dir}" source="${javac.source}" target="${javac.target}" debug="on" encoding="utf-8" includes="web/server/**">
+		  <classpath>
+			<fileset dir="lib">
+			  <include name="*.jar"/>
+			</fileset>
+		  </classpath>
+		</javac>
+		<jar jarfile="./${jarname.server}" basedir="${classes.dest.dir}"/>
+	</target>
+
+	<target name="server-clean">
+		<delete dir="${dist.dir}"/>
+		<delete dir="${classes.dest.dir}"/>
+	</target>
+
+	<!-- =======================================
+		 Others
+	 =======================================-->
+
+	<target name="server" depends="clean,build-server"/>
+	<target name="servlet" depends="clean,compile,quickdist"/>
+
+	<target name="dist" depends="server,servlet"/>
+
+	<target name="all" depends="dist"/>
+
+	<target name="help">
+	  <echo>
+all     : build all
+dist    : create server / servlet jar
+server  : build jetty / tomcat server jar
+servlet : build sample servlet
+help    : usage
+	  </echo>
+	</target>
+
+</project>
