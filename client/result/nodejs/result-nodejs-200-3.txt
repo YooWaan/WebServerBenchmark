@@ -1,0 +1,78 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        
+Server Hostname:        192.168.5.160
+Server Port:            8124
+
+Document Path:          /
+Document Length:        80 bytes
+
+Concurrency Level:      128
+Time taken for tests:   0.034 seconds
+Complete requests:      200
+Failed requests:        48
+   (Connect: 0, Receive: 31, Length: 17, Exceptions: 0)
+Write errors:           34
+Total transferred:      27170 bytes
+HTML transferred:       15200 bytes
+Requests per second:    5900.75 [#/sec] (mean)
+Time per request:       21.692 [ms] (mean)
+Time per request:       0.169 [ms] (mean, across all concurrent requests)
+Transfer rate:          782.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        4   10   4.8      9      22
+Processing:     0    4   4.8      1      14
+Waiting:        0    4   4.3      1      14
+Total:          8   14   4.2     14      23
+
+Percentage of the requests served within a certain time (ms)
+  50%     14
+  66%     16
+  75%     18
+  80%     18
+  90%     20
+  95%     21
+  98%     22
+  99%     23
+ 100%     23 (longest request)

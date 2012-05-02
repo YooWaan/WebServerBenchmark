@@ -1,0 +1,112 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        Warp/1.2.0.1
+Server Hostname:        192.168.5.160
+Server Port:            8123
+
+Document Path:          /index
+Document Length:        99 bytes
+
+Concurrency Level:      128
+Time taken for tests:   0.093 seconds
+Complete requests:      200
+Failed requests:        17
+   (Connect: 0, Receive: 2, Length: 15, Exceptions: 0)
+Write errors:           68
+Total transferred:      72236 bytes
+HTML transferred:       16929 bytes
+Requests per second:    2160.95 [#/sec] (mean)
+Time per request:       59.233 [ms] (mean)
+Time per request:       0.463 [ms] (mean, across all concurrent requests)
+Transfer rate:          762.20 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        5   25  17.3     18      57
+Processing:     0   20  22.3      0      55
+Waiting:        0   19  21.9      1      55
+Total:         14   45  13.3     49      60
+
+Percentage of the requests served within a certain time (ms)
+  50%     49
+  66%     55
+  75%     56
+  80%     57
+  90%     58
+  95%     59
+  98%     60
+  99%     60
+ 100%     60 (longest request)

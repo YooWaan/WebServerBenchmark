@@ -1,0 +1,73 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        Warp/1.2.0.1
+Server Hostname:        192.168.5.160
+Server Port:            8123
+
+Document Path:          /index
+Document Length:        99 bytes
+
+Concurrency Level:      128
+Time taken for tests:   1.057 seconds
+Complete requests:      1500
+Failed requests:        22
+   (Connect: 0, Receive: 18, Length: 4, Exceptions: 0)
+Write errors:           29
+Total transferred:      633148 bytes
+HTML transferred:       148500 bytes
+Requests per second:    1418.66 [#/sec] (mean)
+Time per request:       90.226 [ms] (mean)
+Time per request:       0.705 [ms] (mean, across all concurrent requests)
+Transfer rate:          584.78 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       32   81  49.3     50     166
+Processing:     0    2   6.4      0      38
+Waiting:        0    2   6.2      0      37
+Total:         32   83  48.0     61     166
+
+Percentage of the requests served within a certain time (ms)
+  50%     61
+  66%    124
+  75%    136
+  80%    140
+  90%    149
+  95%    155
+  98%    158
+  99%    160
+ 100%    166 (longest request)

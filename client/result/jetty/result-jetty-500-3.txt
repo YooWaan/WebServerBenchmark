@@ -1,0 +1,148 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        Jetty(8.1.2.v20120308)
+Server Hostname:        192.168.5.160
+Server Port:            8080
+
+Document Path:          /sample/index.html
+Document Length:        85 bytes
+
+Concurrency Level:      128
+Time taken for tests:   14.926 seconds
+Complete requests:      500
+Failed requests:        84
+   (Connect: 0, Receive: 30, Length: 54, Exceptions: 0)
+Write errors:           104
+Total transferred:      113295 bytes
+HTML transferred:       38675 bytes
+Requests per second:    33.50 [#/sec] (mean)
+Time per request:       3821.035 [ms] (mean)
+Time per request:       29.852 [ms] (mean, across all concurrent requests)
+Transfer rate:          7.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        8   21   9.7     19      50
+Processing:     0 1164 4001.7      0   14909
+Waiting:        0 1164 4001.5      0   14908
+Total:          8 1185 3999.9     23   14923
+
+Percentage of the requests served within a certain time (ms)
+  50%     23
+  66%     27
+  75%     30
+  80%     32
+  90%     47
+  95%  14923
+  98%  14923
+  99%  14923
+ 100%  14923 (longest request)

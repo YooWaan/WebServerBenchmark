@@ -1,0 +1,169 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        192.168.5.160
+Server Port:            8080
+
+Document Path:          /sample/index.html
+Document Length:        85 bytes
+
+Concurrency Level:      128
+Time taken for tests:   0.024 seconds
+Complete requests:      200
+Failed requests:        123
+   (Connect: 0, Receive: 53, Length: 70, Exceptions: 0)
+Write errors:           125
+Total transferred:      55432 bytes
+HTML transferred:       14365 bytes
+Requests per second:    8265.49 [#/sec] (mean)
+Time per request:       15.486 [ms] (mean)
+Time per request:       0.121 [ms] (mean, across all concurrent requests)
+Transfer rate:          2237.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        3    8   2.1      8      11
+Processing:     0    3   3.5      0      11
+Waiting:        0    3   2.2      2       9
+Total:          3   11   2.4     11      16
+
+Percentage of the requests served within a certain time (ms)
+  50%     11
+  66%     11
+  75%     13
+  80%     13
+  90%     14
+  95%     16
+  98%     16
+  99%     16
+ 100%     16 (longest request)

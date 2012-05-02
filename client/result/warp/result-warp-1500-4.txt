@@ -1,0 +1,95 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        Warp/1.2.0.1
+Server Hostname:        192.168.5.160
+Server Port:            8123
+
+Document Path:          /index
+Document Length:        0 bytes
+
+Concurrency Level:      128
+Time taken for tests:   1.048 seconds
+Complete requests:      1500
+Failed requests:        1492
+   (Connect: 0, Receive: 4, Length: 1488, Exceptions: 0)
+Write errors:           51
+Total transferred:      629132 bytes
+HTML transferred:       147510 bytes
+Requests per second:    1431.52 [#/sec] (mean)
+Time per request:       89.416 [ms] (mean)
+Time per request:       0.699 [ms] (mean, across all concurrent requests)
+Transfer rate:          586.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       22   81  47.5     61     162
+Processing:     0    2   7.7      0      38
+Waiting:        0    2   7.4      0      37
+Total:         22   84  47.2     67     162
+
+Percentage of the requests served within a certain time (ms)
+  50%     67
+  66%    127
+  75%    139
+  80%    142
+  90%    147
+  95%    153
+  98%    157
+  99%    158
+ 100%    162 (longest request)

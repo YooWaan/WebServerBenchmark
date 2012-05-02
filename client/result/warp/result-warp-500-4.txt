@@ -1,0 +1,86 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        Warp/1.2.0.1
+Server Hostname:        192.168.5.160
+Server Port:            8123
+
+Document Path:          /index
+Document Length:        99 bytes
+
+Concurrency Level:      128
+Time taken for tests:   0.176 seconds
+Complete requests:      500
+Failed requests:        53
+   (Connect: 0, Receive: 30, Length: 23, Exceptions: 0)
+Write errors:           42
+Total transferred:      205252 bytes
+HTML transferred:       48213 bytes
+Requests per second:    2836.65 [#/sec] (mean)
+Time per request:       45.124 [ms] (mean)
+Time per request:       0.353 [ms] (mean, across all concurrent requests)
+Transfer rate:          1137.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        4   35  13.1     40      47
+Processing:     0    4   9.9      1      45
+Waiting:        0    4   9.7      0      44
+Total:          9   39   8.0     41      50
+
+Percentage of the requests served within a certain time (ms)
+  50%     41
+  66%     43
+  75%     44
+  80%     45
+  90%     46
+  95%     46
+  98%     48
+  99%     49
+ 100%     50 (longest request)

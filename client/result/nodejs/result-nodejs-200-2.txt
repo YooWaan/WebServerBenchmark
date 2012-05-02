@@ -1,0 +1,119 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        
+Server Hostname:        192.168.5.160
+Server Port:            8124
+
+Document Path:          /
+Document Length:        80 bytes
+
+Concurrency Level:      128
+Time taken for tests:   0.039 seconds
+Complete requests:      200
+Failed requests:        68
+   (Connect: 0, Receive: 57, Length: 11, Exceptions: 0)
+Write errors:           75
+Total transferred:      25883 bytes
+HTML transferred:       14480 bytes
+Requests per second:    5067.14 [#/sec] (mean)
+Time per request:       25.261 [ms] (mean)
+Time per request:       0.197 [ms] (mean, across all concurrent requests)
+Transfer rate:          640.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        5   13   6.4     10      25
+Processing:     0    6   7.0      2      19
+Waiting:        0    5   6.1      2      16
+Total:          7   19   6.8     21      27
+
+Percentage of the requests served within a certain time (ms)
+  50%     21
+  66%     24
+  75%     24
+  80%     25
+  90%     26
+  95%     27
+  98%     27
+  99%     27
+ 100%     27 (longest request)

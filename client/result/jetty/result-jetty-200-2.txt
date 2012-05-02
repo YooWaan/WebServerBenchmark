@@ -1,0 +1,92 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.5.160 (be patient)
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+Send request failed!
+
+
+Server Software:        Jetty(8.1.2.v20120308)
+Server Hostname:        192.168.5.160
+Server Port:            8080
+
+Document Path:          /sample/index.html
+Document Length:        85 bytes
+
+Concurrency Level:      128
+Time taken for tests:   0.025 seconds
+Complete requests:      200
+Failed requests:        40
+   (Connect: 0, Receive: 11, Length: 29, Exceptions: 0)
+Write errors:           48
+Total transferred:      53784 bytes
+HTML transferred:       18360 bytes
+Requests per second:    7898.89 [#/sec] (mean)
+Time per request:       16.205 [ms] (mean)
+Time per request:       0.127 [ms] (mean, across all concurrent requests)
+Transfer rate:          2074.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        4    8   2.5      8      12
+Processing:     0    3   4.0      1      12
+Waiting:        0    2   3.4      0      11
+Total:          4   11   2.9     12      18
+
+Percentage of the requests served within a certain time (ms)
+  50%     12
+  66%     12
+  75%     13
+  80%     13
+  90%     15
+  95%     16
+  98%     17
+  99%     17
+ 100%     18 (longest request)
