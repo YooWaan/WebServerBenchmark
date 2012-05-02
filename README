@@ -1,0 +1,72 @@
+
+  **** WebServerBenchmark README ****
+
+
+  Welcome
+
+     SERVER
+
+        apache , lighttd ,
+
+        nodejs , warp+yesod ,
+
+        tomcat , jetty
+
+
+     BENCHMARK CLIENT TOOL
+
+        ab apache benchmark tool
+
+
+  DIR
+
+    WebServerBenchmark/
+       server/              each server's configuration and some source.
+          apache/
+          lighttpd/
+          nodejs/
+          warp/
+          j2ee/
+
+       client/              benchmarking shell
+          result/
+          images/
+
+
+  APACHE
+
+    setup:
+
+        server config => conf/http-*.conf or conf/extra/http-mpm.conf
+
+
+    command:
+
+                  == start ==
+        $ cd apache
+        $ ./run.sh prefork|worker|event start
+
+                  == stop ==
+        $ cd apache
+        $ ./run.sh prefork|worker|event stop
+
+
+  LIGHTTPD
+
+
+  NODEJS
+
+
+  WARP+YESOD
+
+
+  TOMCAT
+
+
+  JETTY
+
+
+
+
+
+
